@@ -12,7 +12,7 @@ mongoose.connect(mongoURI, {
 });
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zur Tech Evangelism Initiative API!');
+  res.send('Willkommen zur Tech-Evangelismus-Initiative API!');
 });
 
 // Accessibility endpoints
