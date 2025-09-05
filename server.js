@@ -5,7 +5,8 @@ const app = express();
 app.use(express.json());
 
 // Verbindung zu MongoDB
-mongoose.connect('mongodb://localhost:27017/tech-evangelism', {
+const mongoURI = process.env.MONGO_URI || 'mongodb://localhost:27017/tech-evangelism';
+mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
