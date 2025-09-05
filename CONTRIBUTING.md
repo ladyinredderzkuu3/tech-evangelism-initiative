@@ -13,4 +13,4 @@ Wir freuen uns über Dein Interesse, zur Tech Evangelism Initiative beizutragen!
 3. Nimm Deine Änderungen vor und füge sie mit einer klaren Commit-Nachricht hinzu.
 4. Sende einen Pull Request.
 
-Vielen Dank für Deine Unterstützung!
+Vielen Dank für Deine Unterstützung! 😊
